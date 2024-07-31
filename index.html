@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+ .container{
+    background-color: orchid;
+    margin: 34px;
+    padding: 34px;
+    cursor: pointer;
+ }
+ #btn{
+    color: black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 700;
+    border-radius: 20px;
+    padding: 5px;
+    margin: 5px;
+ }
+ .form{
+    background-color: orchid;
+    padding: 56px;
+    padding: 56px;
+    border: 7px solid green;
+ }
+ #fname{
+    color: black;
+    border-radius: 35px;
+    padding: 5px;
+    margin: 5px;
+ }
+ 
+
+</style>
+<body>
+    <div class="container">
+        <div class="child">
+        Hey I am div child
+        <button id="btn">Click me!</button>
+        </div>
+       
+    </div>
+    <div class="form">
+    <form>
+        <label>Enter your First Name</label>
+        <input type="text" id="fname" onkeyup="myFunction()">
+        <br><br>
+        <label>Enter your Last Name</label>
+        <input type="text" id="fname" onkeypress="myFunction1()">
+        <br><br>
+        <label>Enter your Email</label>
+        <input type="text" onkeydown="myFunction2()">
+        <p id="email"></p>
+    </form>
+</div>
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>
